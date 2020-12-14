@@ -1,0 +1,274 @@
+.header-logo{
+  margin: 0px;
+  float:inherit;
+  padding-top:0px
+  padding-bottom: 15px;
+  background-image:url(balloon2.JPG);
+  background-repeat:no-repeat;
+  background-size:auto;
+  background-position:center;
+  display: flex;
+  justify-content:center;
+}
+
+.header-logo span{
+  font-size:40px;
+  color:#fff
+}
+
+.text{
+  text-shadow: 3px 3px 20px #111
+}
+
+.header-logo img {
+  padding-top:0px;
+  padding-left: 0px;
+  padding-bottom:0px;
+  padding-right: 0px;
+  width:120px;
+  height:auto;
+}
+
+.line{
+  background-color: #bee396;
+  padding: 2px 0px 2px 0px;
+  margin: 0px;
+}
+
+.clearfix{
+  display:flex;
+  flex-direction: row;
+  justify-content:center;
+  background-image: url(square.png);
+  background-size:contain;
+  background-repeat: repeat-x;
+}
+
+.clearfix a {
+  float:none;
+  width: 0px;
+  height: 0px;
+}
+
+.clearfix img{
+  width: 150px;
+  height: auto;
+}
+
+.shadow1{
+  width: 150px;
+  height:auto;
+  padding-right: 25px;
+}
+
+.shadow1 .active {
+  width: 155px;
+  height: auto;
+  padding-right: 22.5px;
+}
+
+.shadow1 {
+  position: relative;
+}
+.shadow1 .active {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  transition: 0.1s;
+}
+.shadow1:hover .active {
+  opacity: 1;
+}
+
+.shadow2{
+  width: 150px;
+  height:auto;
+  padding: 0px 50px 0px 25px;
+}
+
+.shadow2 .active {
+  width: 155px;
+  height: auto;
+  padding: 0px 45px 0px 25.5px;
+}
+
+.shadow2 {
+  position: relative;
+}
+.shadow2 .active {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  transition: 0.1s;
+}
+.shadow2:hover .active {
+  opacity: 1;
+}
+
+.shadow3{
+  width: 150px;
+  height:auto;
+  padding-left: 25px;
+}
+
+.shadow3 .active {
+  width: 155px;
+  height: auto;
+  padding-left: 25.5px;
+}
+
+.shadow3 {
+  position: relative;
+}
+.shadow3 .active {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  transition: 0.1s;
+}
+.shadow3:hover .active {
+  opacity: 1;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+}
+
+/*---------------------------------------------*/
+.main{
+  display:flex;
+  justify-content:center;
+  flex-direction: row;
+  padding-top: 35px;
+}
+
+.container{
+  display:flex;
+}
+
+.information {
+  display:flex;
+  flex-direction:column;
+}
+
+.information a {
+  float:none;
+  margin: 0px;
+  width: 0px;
+  height: 0px;
+}
+
+.information p {
+  color:#2299ef;
+  margin: 0px;
+  font-size:25px;
+}
+
+.information img {
+  padding:10px;
+}
+
+.shadowm1{
+
+}
+
+.shadowm1 .active {
+  width: 125px;
+  height: auto;
+}
+
+.shadowm1 {
+  position: relative;
+}
+.shadowm1 .active {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  transition: 0.1s;
+}
+.shadowm1:hover .active {
+  opacity: 1;
+}
+
+.shadowm2{
+
+}
+
+.shadowm2 .active {
+  width: 125px;
+  height: auto;
+}
+
+.shadowm2 {
+  position: relative;
+}
+.shadowm2 .active {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  transition: 0.1s;
+}
+.shadowm2:hover .active {
+  opacity: 1;
+}
+
+.shadowm3{
+
+}
+
+.shadowm3 .active {
+  width: 125px;
+  height: auto;
+}
+
+.shadowm3 {
+  position: relative;
+}
+.shadowm3 .active {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  transition: 0.1s;
+}
+.shadowm3:hover .active {
+  opacity: 1;
+}
+
+.maincontents {
+  display: flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+  margin-left: 75px;
+}
+
+.maincontents p {
+  margin: 0px;
+  font-size: 20px;
+}
+
+/*---------------------------------------------*/
+
+.footer{
+  background-color:#2299ee;
+  padding: 10px 5px 5px 5px
+}
+
+.footer-logo a{
+  padding-left:10px;
+  font-size: 20px;
+  float: left;
+  color:#fff
+}
+
+.footer-list li{
+  list-style-type: none;
+  font-size: 13px;
+  color:#fff
+}
